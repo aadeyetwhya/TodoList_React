@@ -1,0 +1,48 @@
+.eachTodo {
+    background-color: rgb(55, 55, 65);
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    padding: 15px 0 15px 15px;
+    border-radius: 10px;
+  }
+  .modal{
+    width:100%;
+    display:flex;
+    justify-content:  end;
+  }
+  /* Styling the close button */
+  .close-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;  /* Add padding to make the button big enough for the icon */
+    border-radius: 50%; /* Makes the button circular */
+    display: flex;
+    justify-content: center; /* Centers the icon horizontally */
+    align-items: center; /* Centers the icon vertically */
+    transition: background-color 0.3s ease;
+    width: 20px;  /* Set the width of the circular button */
+    height: 20px; /* Set the height of the circular button */
+    display:flex;
+    margin-right: 10px;
+    
+  }
+  
+  /* Hover effect for the close button */
+  .close-btn:hover {
+    background-color: red; /* Red background on hover */
+  }
+  
+  /* Optional: Icon inside the button */
+  .close-icon {
+    color: white; /* Set the icon color to white */
+    transition: color 0.3s ease;
+  }
+  
+  /* Optional: Icon color change on hover */
+  .close-btn:hover .close-icon {
+    color: black; /* Change the icon color when button is hovered */
+  }
+  

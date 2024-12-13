@@ -1,0 +1,16 @@
+*{
+  color:white
+}
+
+.addBtn{
+  height:50px;
+  width: 10%;
+   border: 0;
+   background-color: blue;
+     color: white ;
+     cursor:pointer;
+     margin-left:50px
+}
+.toDoList{
+color:white
+}
